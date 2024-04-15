@@ -1,0 +1,13 @@
+valid_ip:24.12.86.216
+valid_ip:8.8.4.4
+valid_ip:1.0.0.1
+valid_ip:208.67.222.222
+valid_ip:172.217.14.238
+valid_ip:216.58.208.110
+invalid_ip60.233.161.149
+invalid_ip66.102.0.0
+valid_ip:74.125.68.139
+valid_ip:24.12.86.216
+valid_ip:   208.67.222.222
+invalid_ip    :66.102.0.0
+valid_ip:   172.217.14.238

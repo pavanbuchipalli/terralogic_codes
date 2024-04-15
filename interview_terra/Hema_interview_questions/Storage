@@ -1,0 +1,28 @@
+Wget is the non-interactive network downloader which is used to download files from the server even when
+    the user has not logged on to the system and it can work in the background without hindering the current process.
+1.what is primary storage, secondary storage and cache storage.
+
+a.Primary memory is a computer’s memory that is accessed first or directly by a processor or computer.
+  It enables a processor to access ongoing execution apps and services temporarily saved in a specified memory.
+  The term “primary memory” may also refer to “primary storage” or “main memory.”
+
+b.Primary memory is the volatile storing mechanism of a computer system.
+  It may refer to random access memory (RAM), cache memory, or data buses, although it is most often connected with a computer’s RAM.
+
+c.Primary memory loads all running programmers, including the basic operating system (OS),
+  user interface, and any user-installed and running software utility, as soon as a computer boots up.
+  When a programme or application is launched in the main memory, it interacts with the system processor to complete
+  all application-specific tasks. Secondary memory is said to be slower than primary memory.
+
+d.Cache memory is a tiny sort of volatile computer memory that stores frequently used computer
+  programs, applications, and data and offers high-speed data access to a CPU.
+  The cache is temporary memory storage that enables data retrieval to be simpler and more efficient.
+  It is the computer’s quickest memory, and it is usually built into the motherboard and immediately incorporated
+  into the processor or primary random access memory (RAM).
+
+e.Cache memory decreases the average time it takes to access data from the Main memory.
+ Te cache is a smaller and speedier memory that stores duplicates of data from frequently accessed central memory locations.
+ A CPU has several caches that store instructions and data.
+
+f.Secondary memory or peripheral storage is non-volatile and persistent in nature and
+  is not directly accessed by a computer/processor.

@@ -1,0 +1,58 @@
+{
+                    "employess":
+                    [{"Name":"pavan",
+                      "Department":"QA",
+                       "Salary":200000,
+                       "project":"Psu"},
+
+                      {"Name":"mohan",
+                      "Department":"HR",
+                       "Salary":190000,
+                       "project":"Recruitment"},
+
+                       {"Name":"saravan",
+                      "Department":"Development",
+                       "Salary":250000,
+                       "project":"Psu"},
+
+                      {"Name":"manoj",
+                      "Department":"Development",
+                       "Salary":290000,
+                       "project":"LPU"},
+
+                       {"Name":"chanukya",
+                      "Department":"Testing",
+                       "Salary":220000,
+                       "project":"Nutanix"},
+
+                      {"Name":"swami",
+                      "Department":"Development",
+                       "Salary":290000,
+                       "project":"Psu"},
+
+                       {"Name":"harish",
+                      "Department":"Testing",
+                       "Salary":230000,
+                       "project":"LPU"},
+
+                      {"Name":"mani",
+                      "Department":"Development",
+                       "Salary":260000,
+                       "project":"LPU"},
+
+                       {"Name":"harish_kuamr",
+                      "Department":"Testing",
+                       "Salary":237000,
+                       "project":"LPU"},
+
+                      {"Name":"mani",
+                      "Department":"Development",
+                       "Salary":265000,
+                       "project":"Psu"}
+                       ]
+
+                      }
+
+
+
+
