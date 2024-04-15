@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.3 on win32)" generated="20230908 14:52:39.453" rpa="false" schemaversion="3">
+<suite id="s1" name="1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase">
+<suite id="s1-s1" name="1St Testcase" source="C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\1st_testcase.robot">
+<test id="s1-s1-t1" name="Automating login Hros" line="8">
+<kw name="Launch HROS Browser" library="firstpo">
+<kw name="Open Application" library="common_keywords">
+<arg>${url_hros}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230908 14:52:39.677" level="INFO">Opening browser 'Chrome' to base url 'https://terralogic.paxanimi.ai/login'.</msg>
+<msg timestamp="20230908 14:52:40.383" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230908 14:52:40.383" level="FAIL">AttributeError: 'Service' object has no attribute 'process'</msg>
+<status status="FAIL" starttime="20230908 14:52:39.677" endtime="20230908 14:52:40.448"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:39.676" endtime="20230908 14:52:40.449"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:39.676" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Click Terralogic Button" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${handles}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${handles}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${handles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Enter emailids and Passwords" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${handles}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:39.676" endtime="20230908 14:52:40.450">AttributeError: 'Service' object has no attribute 'process'</status>
+</test>
+<status status="FAIL" starttime="20230908 14:52:39.473" endtime="20230908 14:52:40.450"/>
+</suite>
+<suite id="s1-s2" name="2Nd Testcase" source="C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\2nd_testcase.robot">
+<test id="s1-s2-t1" name="Automating login Hros" line="7">
+<kw name="Launch HROS Browser" library="firstpo">
+<kw name="Open Application" library="common_keywords">
+<arg>${url_hros}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Click Terralogic Button" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${handles}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${handles}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${handles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Enter emailids and Passwords" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${handles}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="manger_data" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="moveout_on_manager" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="get_manager_name" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="get_employee_name" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Concatenate Keywords and Log Message" library="firstpo">
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</kw>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450">Execution terminated by signal</status>
+</test>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</suite>
+<suite id="s1-s3" name="3Rd Testcase" source="C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\3rd_testcase.robot">
+<test id="s1-s3-t1" name="Automating login Hros" line="6">
+<tag>robot:exit</tag>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450">Test execution stopped due to a fatal error.</status>
+</test>
+<status status="FAIL" starttime="20230908 14:52:40.450" endtime="20230908 14:52:40.450"/>
+</suite>
+<status status="FAIL" starttime="20230908 14:52:39.455" endtime="20230908 14:52:40.464"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0" info="combined" combined="NOT robot:exit">NOT robot:exit</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase">1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="1St Testcase">1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase.1St Testcase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="2Nd Testcase">1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase.2Nd Testcase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s3" name="3Rd Testcase">1St Testcase &amp; 2Nd Testcase &amp; 3Rd Testcase.3Rd Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

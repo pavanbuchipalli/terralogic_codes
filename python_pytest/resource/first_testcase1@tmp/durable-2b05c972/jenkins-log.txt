@@ -1,0 +1,37 @@
+
+C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1>robot *.robot 
+==============================================================================
+1St Testcase & 2Nd Testcase & 3Rd Testcase                                    
+==============================================================================
+1St Testcase & 2Nd Testcase & 3Rd Testcase.1St Testcase                       
+==============================================================================
+Automating login Hros                                                 Second signal will force exit.
+| FAIL |
+AttributeError: 'Service' object has no attribute 'process'
+------------------------------------------------------------------------------
+1St Testcase & 2Nd Testcase & 3Rd Testcase.1St Testcase               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+1St Testcase & 2Nd Testcase & 3Rd Testcase.2Nd Testcase                       
+==============================================================================
+Automating login Hros                                                 | FAIL |
+Execution terminated by signal
+------------------------------------------------------------------------------
+1St Testcase & 2Nd Testcase & 3Rd Testcase.2Nd Testcase               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+1St Testcase & 2Nd Testcase & 3Rd Testcase.3Rd Testcase                       
+==============================================================================
+Automating login Hros                                                 | FAIL |
+Test execution stopped due to a fatal error.
+------------------------------------------------------------------------------
+1St Testcase & 2Nd Testcase & 3Rd Testcase.3Rd Testcase               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+1St Testcase & 2Nd Testcase & 3Rd Testcase                            | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\output.xml
+Log:     C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\log.html
+Report:  C:\Users\PavanB-3247\PycharmProjects\python_pytest\resource\first_testcase1\report.html
+Terminate batch job (Y/N)? 
